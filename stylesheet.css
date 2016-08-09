@@ -49,7 +49,7 @@ ul.navigation li.highlight {
 #blurb {
     font-size: 13px;
     font-family: Raleway; sans-serif;
-    color: grey;
+    color: black;
     font-weight: 400;
     text-align: center;
     padding: 2px 2px 2px 2px;
@@ -82,4 +82,11 @@ ul.navigation li.highlight {
     display: block;
     text-align: center;
     opacity: 0;
+}
+body {
+  background: url(images/bg2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
