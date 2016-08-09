@@ -71,24 +71,15 @@ ul.navigation li.highlight {
     display: inline-block;
     width: 250px;
     height: 250px;
-    border: 2px solid;
-    border-color: hsla(0, 0%, 0%, 0.6);
 }
 
-
-.circle {
-    height: 50px;
-    width: 50px;
-    border-radius: 100%;
-    background-color: #B9D7D9;
-    display: inline-block;
+#pagehead {
+    position: relative;
+    top: -12px;
 }
-#button {
-    background-color: seashell;
-    border-radius: 5px;
+
+.thumb-img {
+    display: block;
     text-align: center;
-    font-family: monospace;
-    color: aquamarine;
-    width: 200px;
-    height: 20px;
+    opacity: 0;
 }
