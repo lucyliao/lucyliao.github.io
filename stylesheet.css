@@ -89,3 +89,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+body:not(.loaded) #slider img {
+  display:none;
+}
