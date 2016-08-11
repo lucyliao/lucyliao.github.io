@@ -83,13 +83,9 @@ ul.navigation li.highlight {
     opacity: 0;
 }
 body {
-  background: url(images/bg2.jpg) no-repeat center center fixed;
+  background: lightgray url(images/bg2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-body:not(.loaded) #slider img {
-  display:none;
 }
